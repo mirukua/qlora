@@ -12,7 +12,7 @@ from trl import SFTTrainer
 # --- 1. 配置模型和分词器 ---
 
 # 🔴 修改 1：使用 ModelScope 下载后的【本地模型路径】
-model_name = "D:\models\Qwen2-7B-Instruct"
+model_name = "/models/Qwen2-7B-Instruct"
 
 dataset_path = "./dataset/processed_data"
 output_dir = "./qwen-7b-text2sql-adapter"
